@@ -1,0 +1,328 @@
+Python
+
+
+Dictionary
+
+- Q: What is a dictionary in Python?
+- A: Python dictionary is one of the supported data types in Python. It is an unordered collection of elements. The elements in dictionaries are stored as key–value pairs. Dictionaries ae ndxed by key.For exmple, below we have a disare ict named my_dict. It contains two keys, fruit and vegatable, along with their corresponding values, banana and onion.
+- my_dict = {'fruit':'banana', 'vegatable':'onion'}
+
+
+SET
+
+Q: Which one of the following is not the correct syntax for creating a set in Python?
+
+A:
+
+a. set([[1,2],[3,4],[4,5]])
+
+b. set([1,2,2,3,4,5])
+
+c. {1,2,3,4}
+
+d. set((1,2,3,4))
+
+
+Explanation: The iterable argument given for the set must be used in a correct way.
+
+SQL
+
+- Q: What is a Database?
+- A: A database is an organized collection of data, generally stored and accessed electronically from a computer system. In simple terms, a database is a collection of data stored in a computer system. When you order a product on a commercial website, your order is stored in a database. You withdrew money from your bank account. Your bank stores this transaction in the database. Social media platforms such as Facebook, Instagram, Twitter use databases to store data like members, their friends, member activities, messages, advertisements, etc.
+- Interview Q&A
+
+- Q: What is a table, column and row?
+- A: A table is an organized collection of data stored in the form of columns and rows. Columns can be categorized as vertical and rows as horizontal. The columns in a table are called fields while the rows can be referred to as records.
+- Interview Q&A
+
+- Q: What is SQL?
+- A: SQL stands for Structured Query Language and used to communicate with a database. With SQL, you can access or manipulate data stored in the database.
+
+- Q: What are some common clauses used with SELECT query in SQL?
+- A: WHERE clause, ORDER BY clause, GROUP BY clause and HAVING clause
+
+Q: What is an aggregate function?
+A: An aggregate function performs operations on a collection of values to return a single scalar value. Aggregate functions are often used with the GROUP BY and HAVING clauses of the SELECT statement.
+
+- Q: What is a Join?
+- A: The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+- 
+- Q: What is inner join?
+- A: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
+
+- What is a Subquery?
+- A: A subquery is a query within another query, also known as nested query or inner query . It is used to restrict or enhance the data to be queried by the main query, thus restricting or enhancing the output of the main query respectively.
+
+Q: What are Constraints in SQL?
+
+A: NOT NULL - Restricts NULL value from being inserted into a column. DEFAULT - Automatically assigns a default value if no value has been specified for the field. UNIQUE - Ensures unique values to be inserted into the field. PRIMARY KEY - Uniquely identifies each record in a table. FOREIGN KEY - Ensures referential integrity for a record in another table.
+
+Q: What is a Primary Key?
+
+A: The PRIMARY KEY constraint uniquely identifies each row in a table. It must contain UNIQUE values and has an implicit NOT NULL constraint.
+
+Loops
+
+Q: What are the two major loop statements?
+A: for and while loops.
+
+- Q: How does for loop and while loop differ in Python and when do you choose to use them?
+- A: For loop is generally used to iterate through the elements of various collection types such as list, tuple, set and dictionary.
+- While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other programming languages.
+
+- Q: What are Python iterators?
+- A: Iterators in Python are array-like objects which allow moving on the next element. We use them in traversing a loop, for example, in aforloop.
+
+- Q: How does for loop and while loop differ in Python and when do you choose to use them?
+- A: For loop is generally used to iterate through the elements of various collection types such as list, tuple, set and dictionary.
+- While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other programming languages.
+
+
+Functions
+
+
+- Q: What is function in Python?
+- A: A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+- Q: Explain Python functions.
+- A: A function is a section of the program or a block of code that is written once and can be executed whenever required in the program. A function is a block of self-contained statements which has a valid name, parameters list, and body. Functions make programming more functional and modular to perform modular tasks. Python provides several built-in functions to complete tasks and also allows a user to create new functions as well. There are two types of functions: Built-In Functions:copy(),len(),count()are the some built-in functions. User-defined Functions: Functions which are defined by a user known as user-defined functions.
+
+- Q: How do we write a function in Python?
+- A: We can create a Python function in the following manner. Step-1: to begin the function, start writing with the keyword def and then mention the function name. Step-2: We can now pass the arguments and enclose them using the parentheses. A colon, in the end, marks the end of the function header.
+  Step-3: After pressing an enter, we can add the desired Python statements for execution. 
+
+- Q: What is the return keyword used for in Python?
+- A: The purpose of a function is to receive the inputs and return some output. The return is a Python statement which we can use in a function for sending a value back to its caller. 
+
+- Q: What does this mean: *args, **kwargs? And why would we use it?
+- A: We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function. **kwargs is used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments. The identifiers args and kwargs are a convention, you could also use *bob and **billy but that would not be wise.
+
+- Q: What is the namespace in Python?
+- A: The namespace is a fundamental idea to structure and organize the code that is more useful in large projects. A namespace is defined as a simple system to control the names in a program. It ensures that names are unique and won't lead to any conflict. Also, Python implements namespaces in the form of dictionaries and maintains name-to-object mapping where names act as keys and the objects as values. 
+
+- Q: What are local variables and global variables in Python?
+- A: Variables declared outside a function or in global space are called global variables. These variables can be accessed by any function in the program. Any variable declared inside a function is known as a local variable. This variable is present in the local space and not in the global space. When you try to access the local variable outside the function, it will give an error.
+
+- Q: What is a lambda function?
+- A: A lambda function is an anonymous function (a function that does not have a name) in Python. To define anonymous functions, we use the ‘lambda’ keyword instead of the ‘def’ keyword, hence the name ‘lambda function’. Lambda functions can have any number of arguments but only one statement.
+- 
+- Q: What Are The Principal Differences Between The Lambda And Def?
+- A:
+- - Def can hold multiple expressions while lambda is a uni-expression function.
+- - Def generates a function and designates a name to call it later. Lambda forms a function        object and returns it.
+- - Def can have a return statement. Lambda can’t have return statements. 
+- - Lambda supports to get used inside a list and dictionary.
+
+- Q: What is map function in Python?
+- A: map function executes the function given as the first argument on all the elements of the iterable given as the second argument. If the function given takes in more than 1 arguments, then many iterables are given. 
+
+- Q: How to import modules in Python?
+- A: Modules can be imported using the import keyword. You can import modules in three ways. Example:
+
+- Q: What are python modules? Name some commonly used built-in modules in Python.
+- A: Python modules are files containing Python code. This code can either be functions classes or variables. A Python module is a .py file containing executable code. Some of the commonly used built-in modules are: os, sys, math, random, datetime. 
+
+- Q: How can you generate random numbers in Python?
+- A: Random module is the standard module that is used to generate a random number. The method is defined as:
+- 
+
+Modules
+
+- Q: What is module and package in Python?
+- A: In Python, module is the way to structure the program. Each Python program file is a module, which imports other modules like objects and attributes. The folder of Python program is a package of modules. A package can have modules or subfolders.
+
+
+Errors
+
+
+- Q: What are the Errors and Exceptions in Python? A:
+In Python, there are two types of errors: syntax error and exceptions.
+- Syntax Error: It is also known as parsing errors. Errors are issues in a program which may cause it to exit abnormally. When an error is detected, the parser repeats the offending line and then displays an arrow which points at the earliest point in the line.
+- Exceptions: Exceptions take place in a program when the normal flow of the program is interrupted due to the occurrence of an external event. Even if the syntax of the program is correct, there are chances of detecting an error during execution, this error is nothing but an exception. Some of the examples of exceptions are - ZeroDivisionError, TypeError and NameError.
+
+- Q: Give some examples of standard errors that occour in Python.A:
+
+- TypeError- It occurs when the expected type does not match with the given type of a variable.
+- ValueError- It occurs when an expected value is not given, suppose you are expecting 6 elements in a list and you gave 2.
+- NameError- It occurs when you are trying to access an undefined variable or a function.
+- IOError- It occurs when you are trying to access a file that does not exist.
+- IndexError- It occurs when you are trying to access an invalid index of a sequence.
+- KeyError- It occurs when you use an invalid key to access a value in the dictionary.
+
+
+
+
+
+
+
+AGILE
+
+
+Q: Do you know about Agile Manifesto & its Principles? Explain in brief.
+
+A: There are four values in the manifesto. Individuals and interactions, working software, customer collaboration and responding to the changes are the values. Stemming from these values there are 12 principles in agile. These principles can be summarized as to satisfy the customer, to welcome changing requirements, good cooperation between business people and developers (working together), face to face conversation, motivated individuals and simplicity.
+
+
+Q: What is the duration of a scrum sprint?
+A: It depends on the number of people in the development team and the size of the project. In general, a scrum sprint is completed in 1-4 weeks.
+
+Q: What is the role of the Scrum Master?
+A: Scrum Master coaches the team, protects the team from organizational distraction, clears any obstacles encountered and helps team members focus on what they do. Scrum Master ensures that scrum is understood well by the team members and it is working properly. Scrum Master constantly improves the team's environment. While the product owner has a directing role, Scrum Master has an enabling role in a scrum team.
+
+
+Q: Explain what is Kanban.
+A: A Kanban is like a flash card carrying all the information about the current status of your work and the work required to be done on the product at each stage of the software development process.
+
+Q: Describe the places where ‘Scrum' and ‘Kanban' are used?
+A: Scrum is a better choice when you need a more prominent process. However, if you want improvement in running the process without much changes in the whole scenario, you should use Kanban.
+
+
+
+jira
+
+Q: What is Jira?
+A: Jira is a tool developed to help teams for project management, bug tracking, and issue tracking. In simple terms, it is an issue tracker. Jira is widely used by big companies in software development and software testing.
+
+
+Q: List the Atlassian products that are members of Jira family.
+A: Jira is divided into four different products and the term Jira is referred to as a common platform in which all these products are created. The four products of the Jira family are: Jira Software, Jira Align, Jira Core, and Jira Service Desk.
+
+Q: Which hosting options are available for Jira Software?
+A: There are three hosting options available: Atlassian Cloud, Server, and Data Center (Amazon Web Services (AWS) and Microsoft Azure).
+
+Q: What is project key in Jira Software?
+A: A project key is a unique code for your project. Jira Software will automatically generate a short project key in accordance with your project name. However, if you want to specify this auto-generated key yourself, you can change it.
+
+
+Network
+
+
+- Q: What is a Computer Network?
+- A: A computer network is a connection network between two or more nodes usingPhysical MediaLinks viz., cable, or wireless to exchange data over pre-configured services and Protocols. A computer network is a collective result of – Electrical Engineering, Computer Science, Telecommunication, Computer Engineering, and Information Technology involving their theoretical as well as practical aspects into action. The most widely used Computer Network of Today is the Internet which supports the World Wide Web (WWW).
+
+- Q: Explain at s LAN?
+- A: A LAN or Loal Area Networkwich is the network between devices that are located within a small physical location. It can be either wireless or wired. One LAN differs from another based on the following factors:
+- Topology: The arrangement of nodes within the network
+- Protocol: Refer to the rules for the transfer of data
+- Media: These devices can be connected using optic fibers, twisted-pair wires, etc.
+
+
+- Q: What do you mean by a Node?
+- A: The intersection point in a network is called a Node. Nodes can send or receive data/ information within a network. For example, if two computers are connected to form a network, there are 2 nodes in that network. Similarly, in the case of adding more computers, there will be more nodes and so on. It is not necessary for a node to be a computer, it can be any communication device such as a printer, servers, modems, etc..
+
+
+- Q: What is WAN?
+- A: WAN stands for Wide Area Network. It is an interconnection of computers and devices that are geographically dispersed. It connects networks that are located in different regions and countries
+
+- Q: What do you mean by network topology?
+- A: Network topology specifies the layout of a computer network. It shows how devices and cables are connected to each other. Some types of topologies are: Bus, Star, Ring, Mesh, etc.
+
+- Q: Describe star topology
+- A: Star topology consists of a central hub that connects the nodes. This is one of the easiest way to setup and maintain.
+
+
+- Q: What is the disadvantage of a star topology?
+- A: One major disadvantage of star topology is that once the central hub or switch damaged, the entire network becomes unusable
+
+- Q: What are some drawbacks of implementing a ring topology?
+- A: In case one workstation on the network suffers a malfunction, it can bring down the entire network. Another drawback is that when there are adjustments and reconfigurations needed to be performed on a particular part of the network, the entire network has to be temporarily brought down as well.
+
+- Q: What is mesh topology?
+- A: Mesh topology is a setup wherein each device is connected directly to every other device on the network. Consequently, it requires that each device has at least two network connections
+
+- Q: What is one advantage of mesh topology?
+- A: In the event that one link fails, there will always be another available. Mesh topology is actually one of the most fault-tolerant network topology.
+
+- 
+
+
+
+
+
+
+
+
+INTERVIEW - SALARY EXPECTATION
+
+
+Get them to share the range FIRST so they don’t end up low-balling you in the negotiation phase! 
+Here's a script you can use:
+Before I can discuss salary in detail, I’d need to have a better understanding of the exact role scope and level of responsibility, as well as what the global package entails.
+Can you share the range for the role and I’ll let you know if it’s about what I had in mind?
+
+
+QUESTION - 3 : What is your greatest weakness?
+
+
+Sample answer  - 1I get excited when people on my team brainstorm about big new ideas. I sometimes get so caught up in the moment that I volunteer to do too much. I know this can be a distraction in ways that put me at risk of not getting work done properly or missing deadlines.I've been reflecting on why this happens. As I've become more conscious of this pattern, I'm working on ways to contain the negative aspects of my eagerness.One way that I do this is to still go to brainstorming meetings but to be more careful about offering to do the next steps—or limit it to one project that my boss supports.Fortunately, though, the job we're discussing seems well-suited for people like me, people that bring a lot of enthusiasm to the job and are ready to keep getting better and better at the follow-through.Why this answer worked well:
+- He shared a story about how a weakness would negatively impact his work and stress him out.
+- He turned his self-awareness into a plan to help him manage that weakness so he would be successful in the future.
+- He shared specific details, which made the story feel relatable.
+Sample answer  - 2In my current role as a product manager, I’m responsible for specific feature building. So, I work with a lot of cross-functional teams like engineers and designers.I think one thing that I can always improve on is patience, taking time to really see and understand other people’s perspectives — especially considering we are always rushing to meet tight deadlines. I always want things to move quickly and precisely, which I’ve realized can make my partners a bit anxious.To help with this, I’m working to help build trust. I’ve been scheduling more frequent check-ins with the teams to make sure that everyone is comfortablewih the poject timeline. And I’ve made tr myself more open so that they can share any missed opportunities that they see as we go. This gives us a chance to get out ahead of things and make sure we’re all totally aligned even as we work fast.Why this answer worked well:
+- The answer was honest and demonstrated an understanding of how this weakness can affect team members.
+- A clear improvement strategy was outlined.
+
+QUESTION - 4 : Why should we hire you?Sample answer  - 
+1I've got both the experience and target audience rapport that you're looking for.I've built two corporate training programs from scratch and developed the kind of interactive video programs that you're looking to create.When employees fill out feedback forms, they speak highly of my professionalism and clarity that they've encountered.Here’s a quick example.A close friend of mine on your marketing team says that this company is a great cultural fit given my background and values. I have an insatiable level of curiosity and tend to do lots of research on any topic that I'm less than an expert in. And I know your values include constant learning. That really resonates with my passion.I'm just eager to become part of a fast-growing, mission-oriented organization like yours.Why this answer worked well:
+- He spoke about his core strengths in a way that related to the job requirements.
+- He used favorable feedback from some of his previous coworkers, and their positive observations were helpful.
+- He talked about why he was a good cultural fit for the organization.
+- 
+Sample answer  - 2 Having worked in strategy and sales roles across different geographies, I believe I am uniquely positioned to add a lot of value to this general managerial position.What separates me from most is my ability to take a holistic view of the business, set the vision, and translate that into a set of strong strategic solutions. Given my experience across different functions, I also have the ability to connect and influence cross-functional partners to drive business results, which I believe will be critical in this position.My background studying engineering and business taught me to balance the logic and data with the human side of things, which will be a competitive advantage in this ambiguous and dynamic industry.I’m motivated and excited to learn your company’s unique business model, and from my interactions with the employees 
+here, I can see that we share values like respect, trust, and excellence.Overall, I believe I bring the right mix of skills, experiences and attitude for the job and think that my varied experience can add a lot of value here.Why this answer worked well:
+- The answer incorporated specific qualifications that set the candidate apart.
+- Strengths were framed through the lens of how they could benefit the company.
+- 
+Sample answer  - 3As a data scientist, I’ve demonstrated my ability to answer business questions, as well as advise strategic marketing decisions by providing in-depth data analysis with various technical skills, such as SQL and R.Part of my role has been to evaluate a $30M marketing budget and make recommendations. A recent marketing strategy that I proposed eventually drove growth of 10% for the business.I am also proactive in learning new skills. For example, knowing that effective communication is the key to making findings convincing, I sought out and took training sessions on both data visualization and presentation. These skill sets have been critical in successfully pitching and persuading senior leadership on changes to strategy. As a result, I was quickly promoted to a senior role in just a year.Given the growth moment that your company is poised to have, I believe that my unique experience will be an asset to your team. I’m excited to expand my expertise within a new industry, and recommend key strategies and opportunities that will support and drive business.Why this answer worked well:
+- The answer featured a blend of quantifiable results and personal strengths.
+- There was clear awareness of the company’s trajectory and enthusiasm for the role.
+
+QUESTION - 5 : Why do you want to work here?
+
+Sample answer  - 1 By Jenny Foss, Career Strategist at linkedin-corpThe first thing that prompted me to apply is your commitment to service. I've been a customer for five years since I first bought a house. We had a big storm that damaged my roof last year, and I was impressed by how caring and prompt your customer service representatives were as I worked through it.I'm also excited about your upcoming merger. I can see how this is going to set you apart in the insurance industry. I'd love to help you through the process of integrating the two companies. Having supported a merger three years ago, I know what an intricate and stressful process that can be. I have a few specific ideas on how I might ease the transition.Lastly, I applied because I see this as an opportunity for me to broaden my financial services experience. This seems to be a natural fit based on my understanding of regulated industries.Why this answer worked well:
+- He has done his homework and sees an opportunity to help this company through a challenging and exciting transition.
+- He made it about them first and then wove in some of his own personal career goals.
+
+Sample answer  - 2 By Brand Marketing Manager ProfessionalI grew up in a household that only used your products. Even when we faced tremendous financial difficulty, my mother would always buy razors manufactured by your company – that’s when you realize the role you play in the lives of your consumer is much more than cleaning. You make life a little bit easier, allowing people the time, space and energy to live life at its fullest.When my father immigrated to the U.S from India, I was 6 years old. I don’t remember much – all I remember is that my dad packed 2 suitcases, a box of his mother’s favorite sweets and your company’s personal care products. That’s how important the product is to him and it’s the only razor he has ever used and it’s the only razor I have ever used. I want to work for a brand like that – and I want to bring my father to this office and see the factory where his product is made, first-hand.Why this answer worked well:
+- The answer showed that the candidate is deeply invested in the brand, creating an emotional connection to the company's vision.
+- The personal story showed a real connection to the brand, and genuine enthusiasm for the job.
+
+Sample answer  - 3 By Data Engineering Analyst ProfessionalI understand that you’re looking for a leader who can implement and scale your data analytics platform.Over the course of my career, I have implemented data analytics platforms for 3 companies. Each had its own unique challenges and required me to learn, grow, and expand my skill set. I’m energized by new and complex challenges, and have the background, experience, and successful track record required to implement this system within your organization.The space in which your company operates is also of personal interest to me and I would love to contribute to it and help the company grow. When I started at my current company, I had a team of 4 people which I scaled to 28 people. I led the team in designing and building a big data platform for this big global company. Ultimately, we expanded the user base from 100 to 1,200.I’m looking forward to the next chapter and challenge, and believe I can bring real value to this organization.Why this answer worked well:
+- The answer detailed experience in helping growing organizations scale.
+- It was clear that the candidate had personal interest in the company.
+
+QUESTION - 6 : Tell me about a time you showed leadership.
+
+Sample answer  - 1 By Linda Raynier CPA, CA, Career StrategistRecently there was a situation where my manager needed to take medical leave and was unable to come into work for a few weeks. This coincided with a major deadline that he was leading. I knew that if this project wasn't completed on time, we were at risk of losing a major client.I looked to my right and my left, and there wasn't anyone else who could own the project, so I jumped in with both feet and took the initiative.I went through the files and developed a schedule detailing what needed to be completed, and I worked with my coworkers to ensure they were on board too.In the end, we were able to complete the project by the deadline. The client was pleased and stayed on as a loyal customer to the company. When my boss came back, he gave me an end-of-quarter bonus because he was impressed I was able to rally everyone to complete the project.Why this answer worked well:
+- She shared details that make it easy to visualize what was happening.
+- She described how she got her coworkers onboard and met the deadline to keep her loyal client.
+
+Sample answer  - 2 By Hardware Engineer ProfessionalI was working on a high visibility project and during production, two members on my cross-functional team had different approaches to a problem that we were facing. They both wanted credit for being right, and we were at a stalemate. To move forward, I needed to help align the team.I wasn’t their reporting manager but I was the project lead, so I asked them to explain the pros and cons of their approach. I encouraged them to fairly assess their solutions and moderated the discussion so that it stayed productive and respectful.As they laid out their plans, it became clear that a hybrid approach would be best for the company. I encouraged them to see this as a team win towards a common goal that would reflect positively on everyone.Using the hybrid approach, we not only delivered a superior solution, but completed the project 2 weeks ahead of schedule because the team was so motivated.Why this answer worked well:
+- The answer highlighted both communication and moderation skills.
+- Beyond the success of achieving consensus, the candidate improved the project timeline.
+
+Sample answer  - 3 By Data Engineering Analyst ProfessionalA few years ago, I took over the Web Operations team of a major company. This was a new area for me and when I stepped into the role, I immediately identified a clear need to completely rebuild 35 worldwide websites across eight different languages.I created a plan for the rebuild which included hiring additional technical writers, securing media agencies, acquiring new software, and more.This plan was meant to be enacted over 18 months but after I presented my plan to executive management, the CEO requested that we complete the project before the end of the year.This gave us just 12 months, which meant we had to rethink our project plan. The readjustment required the addition of even more resources and distributing the translation work to different teams — all while managing risk carefully. I am happy to say that after 12 months, the project was completed successfully, and team morale remained high throughout the process.Why this answer worked well:
+- The candidate demonstrated their ability to identify opportunity areas.
+- The solution required a blend of soft and technical skills and the ability to lead cross-functional teams.
+- The example also highlighted the ability to adjust a plan to meet aggressive deadlines.
+
+QUESTION - 7 : Tell me about a time you were successful on a team.
+
+Sample answer  - 1 By Linda Raynier CPA, CA, Career StrategistI was asked to work on a high-profile project that included collaborating with a new team and tons of people across a larger organization.We were spread out across the globe, which meant timezones were tricky and we could never meet face-to-face. Communication was starting to get confusing, and people were losing important details.It became apparent that this project was going to fail if we didn’t have a new strategy, so I met with various team members and engaged them in a process where we designed and implemented a communication system that would work a lot better.We then did weekly check-ins; designed a protocol to share relevant updates so we’d stay on track; developed a detailed outline of goals and milestones; and led the meetings.In the end, the team made massive progress. We completed the project on time, and it was praised extensively by the client. The team thanked me for helping to course-correct. We also continue to use these tools, and they are what make our team so much more efficient at what we do.Why this answer worked well:
+- She started off discussing a specific situation and the issues involved with having to work on a global team.
+- She talked about the specific action steps she took like implementing a new work process.
+- She described the positive results and teamwork skills she demonstrated along the way.
+
+Sample answer  - 2 By Program Manager ProfessionalWhile working for a major airline, I was on a team that was tasked to jointly determine the growth plans for a joint venture we operated in partnership with two other airlines. Naturally, the team was made up of individuals based around the world, each with very different views on the economic and competitive landscape. At first, our plans clashed significantly.One challenge we were trying to solve in our term sheet was how to adjust our plans during times of economic uncertainty. Each team had a different idea for what actions to take, and when. To help reach alignment I proposed that we look at real historic examples of economic downturns, bankruptcies, volcanic eruptions, and similar events — and use them as case examples to set a range of appropriate reactions. Then, we’d tie these reactions to indicators, such as global passenger volume, GDP growth, and stock market indicators — all universally understood and applicable.Once we established this framework for using hard data to guide acceptable strategic actions, the team was able to collaborate with more trust and a common language. Our analysis was unified and based on the same inputs, and this allowed us to quickly and successfully align on a term sheet for the joint venture.
+
+Why this answer worked well:
+- The candidate showcased their ability to align stakeholders with very divergent points of view.
+- The answer included strategic thinking skills and personal initiative.
+
+Sample answer  - 3 By Product Manager ProfessionalI joined a team 6 months after the MVP launch which was moderately successful, but short of management expectations. Without a real roadmap, the team was just running small experiments to drive incremental gains.I quickly realized that we’d need to do more than that to realize the long-term vision of the product. To gain the trust of my new team, I focused on what could be improved in the immediate future. I helped rationalize the short-term experiment roadmap, organized execution, removed roadblocks, and helped ship few of the high potential experiments.Concurrently, I spent time with the executive team to understand their expectations. After observing users and analyzing our logs, I partnered with team leads across Engineering, Design, and Research to develop an updated mission statement and a set of defined success metrics.Within 3 months, we were charging full-speed ahead with an updated roadmap, improvement operational metrics, and significant boost on a platform satisfaction survey. Two years later, the product had been used by hundreds of millions of people every month — 40 times the amount we started with.Why this answer worked well:
+- The candidate demonstrated their ability to identify areas of opportunity, backed up by quantifiable results.
+- The answer included important soft skills like collaboration and team-building.
+
+
+
+
